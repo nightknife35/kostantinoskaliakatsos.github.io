@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(246, 230, 244);
+  margin: 0;
+}
+
+.box-0 {
+  background-color: rgb(195, 80, 191);
+  margin: 9vh 21vw 0vh 21vw; /*to look good*/
+  height: 55vh;
+  width: 58vw;
+  display: flex;
+}
+.big-vs-smalls {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin-left: 1%;
+  height: 53vh; /*55vh -1vh top -1vh bottom */
+  width: 49%; /*50% -1% left*/
+}
+.box-up-down {
+  height: 49%;
+  width: 100%;
+  display: flex;
+}
+#up {
+  margin-bottom: 1vh;
+}
+#_1 {
+  margin-right: 1vh;
+}
+
+.mini-boxes {
+  height: 100%;
+  width: 50%;
+}
+
+button {
+  background-image: url(photo.jpg);
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  padding: 0;
+
+  height: 100%;
+  width: 100%;
+}
